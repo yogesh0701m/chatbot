@@ -1,0 +1,3 @@
+# This file should be generated from your Hasura endpoint
+# Run: npx graphql-codegen --config codegen.yml
+# after setting up your Hasura schema
