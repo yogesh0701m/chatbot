@@ -119,7 +119,7 @@ function ChatApp() {
 export default function App() {
   return (
     <NhostProvider nhost={nhost}>
-      <NhostApolloProvider nhost={nhost} apolloClient={apolloClient}>
+      <NhostApolloProvider nhost={nhost} >
         <AuthGate>
           <ChatApp />
         </AuthGate>
